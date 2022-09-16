@@ -1,0 +1,43 @@
+.section{
+    width:100%;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section h1{
+    
+    position: absolute;
+    top: 10%; right: 4em;
+    font-size: 4rem;
+    background: rgb(247, 175, 247,.80);
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+
+}
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.topleftbox{
+    position: absolute;
+    top: 10%; left: 4em;
+    z-index: 1;
+}
+
+.toprightbox{
+
+}
+.bottomleftbox{
+
+}
+.bottomleftbox{
+    
+}
