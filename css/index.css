@@ -28,16 +28,55 @@
 
 .topleftbox{
     position: absolute;
-    top: 10%; left: 4em;
+    top: 10%; left: 10em;
+    width: 256px;
+    height: 256px;
+    background-image: url(../resources/farmers-breakfast.png);
+    background-size: cover;
     z-index: 1;
+}
+.topleftbox:hover {
+    background-image: url(../resources/square_farmers_breakfast-4.jpg);
 }
 
 .toprightbox{
+    position: absolute;
+    top: 10%; left: 40em;
+    width: 256px;
+    height: 256px;
+    background-image: url(../resources/princess-pudding.png);
+    background-size: cover;
+    z-index: 1;   
+}
 
+.toprightbox:hover {
+    background-image: url(../resources/Princess_Pudding_ffxiv_2.jpg);
 }
 .bottomleftbox{
+    position: absolute;
+    top: 40%; left: 10em;
+    width: 256px;
+    height: 256px;
+    background-image: url(../resources/Skybuilders-stew.png);
+    background-size: cover;
+    z-index: 1;
+}
+
+.bottomleftbox:hover {
+    background-image: url(../resources/LRM_20191119_124821.jpg);
 
 }
-.bottomleftbox{
-    
+.bottomrightbox{
+    position: absolute;
+    top: 40%; left: 40em;
+    width: 256px;
+    height: 256px;
+    background-image: url(../resources/starlight-log.png);
+    background-size: cover;
+    z-index: 1;
+
+}
+
+.bottomrightbox:hover {
+    background-image: url(../resources/Starlight_log_FFXIV_2.jpg);
 }
