@@ -1,6 +1,6 @@
 .section{
     width:100%;
-    position: relative;
+    position: absolute;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -11,9 +11,12 @@
 .section h1{
     
     position: absolute;
-    top: 10%; right: 4em;
+    font-family: jupiter;
+    font-weight: 100;
+    top: 10%; right: 0px;
     font-size: 4rem;
-    background: rgb(247, 175, 247,.80);
+    background-image: url(../resources/41.png);
+    background-size: cover;
     padding: 20px;
     margin: 15px;
     z-index: 1;
@@ -103,7 +106,12 @@
     z-index: 1;
 }
 
-span{
+.audio{
+    position:absolute;
+    top: 2%;
+    left: 4%;
+    z-index: 1;
+    
     
 }
 
@@ -117,4 +125,9 @@ span{
 @font-face {
     font-family: eorzea;
     src: url(../resources/eorzea.ttf);
+}
+
+@font-face {
+    font-family: jupiter;
+    src: url(../resources/Fontspring-DEMO-jupiter_pro_regular.otf);
 }
