@@ -24,6 +24,37 @@
     display: block;
 }
 
+.instructions{
+    position: absolute;
+    text-align: left;
+    overflow:auto ;
+    top: 12%; left: 4.5rem;
+    width: 980px;
+    height: 450px;
+    
+    overflow: hidden;
+    z-index: 1;
+   
+}
+
+.instructions2{
+    width: 980px;
+    height: 440px;
+    
+    overflow: auto;
+    padding-right: 15px;
+}
+
+.nutrition{
+    position: absolute;
+    text-align: center;
+    overflow:hidden ;
+    top: 12%; left: 4.5rem;
+    width: 980px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
 .prev,.next{
     cursor: pointer;
     position: absolute;
