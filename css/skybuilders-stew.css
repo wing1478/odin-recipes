@@ -4,3 +4,113 @@
     left: 0;
     width: 100%;
 }
+.header h1{
+    position: absolute;
+    font-family: jupiter;
+    font-weight: 100;
+    text-align: right;
+    top: 7%; right: 0px;
+    font-size: 4rem;
+    background-image: url(../resources/41.png);
+    background-size: cover;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+}
+
+#reference{
+    position: relative;
+    top: 55px; left: 65%;
+    z-index: 1;
+}
+.boarder{
+    position: absolute;
+    display: flex;
+    top: 10%; left: 4em;
+    width:990px;
+    height: 490px;
+    background: rgba(188, 125, 230, 0.288);
+    background-size: cover;
+    z-index: 1;
+}
+.wrapper{
+    margin: auto;
+    display: inline;
+    align-items: center;
+    position: relative;
+}
+#big-one{
+    display: block;
+}
+
+.instructions{
+    position: absolute;
+    text-align: left;
+    overflow:auto ;
+    top: 12%; left: 4.5rem;
+    width: 980px;
+    height: 450px;
+    
+    overflow: hidden;
+    z-index: 1;
+   
+}
+
+.instructions2{
+    width: 980px;
+    height: 440px;
+    
+    overflow: auto;
+    padding-right: 15px;
+}
+
+.description{
+    position: absolute;
+    text-align: center;
+    overflow:hidden ;
+    top: 690px; left: 4.5rem;
+    width: 980px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    height: 64px;
+    width: 64px;
+    z-index: 2;
+
+}
+.prev{
+    text-align: right;
+    left: 25px;
+    bottom: 5px;
+}
+.next{
+    right: 25px;
+    bottom: 5px;
+}
+.carousel-control-prev-icon{
+    background-image: url(../resources/hand.png);
+    background-size: cover;
+}
+.carousel-control-next-icon{
+    background-image: url(../resources/hand-flipped.png);
+}
+.prev:hover,.next:hover{
+    transform: scale(1.06);
+}
+
+.sr-only{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;    
+    border: 0;
+    z-index: 2
+}

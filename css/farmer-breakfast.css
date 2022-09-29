@@ -4,6 +4,25 @@
     left: 0;
     width: 100%;
 }
+.header h1{
+    position: absolute;
+    font-family: jupiter;
+    font-weight: 100;
+    text-align: right;
+    top: 7%; right: 0px;
+    font-size: 4rem;
+    background-image: url(../resources/41.png);
+    background-size: cover;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+}
+
+#reference{
+    position: relative;
+    top: 55px; left: 65%;
+    z-index: 1;
+}
 .boarder{
     position: absolute;
     display: flex;
@@ -45,11 +64,11 @@
     padding-right: 15px;
 }
 
-.nutrition{
+.description{
     position: absolute;
     text-align: center;
     overflow:hidden ;
-    top: 12%; left: 4.5rem;
+    top: 690px; left: 4.5rem;
     width: 980px;
     height: 200px;
     border: 1px solid blue;
@@ -65,6 +84,7 @@
 
 }
 .prev{
+    text-align: right;
     left: 25px;
     bottom: 5px;
 }
