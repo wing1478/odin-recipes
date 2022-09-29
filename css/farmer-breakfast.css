@@ -5,11 +5,61 @@
     width: 100%;
 }
 .boarder{
-position: absolute;
+    position: absolute;
+    display: flex;
     top: 10%; left: 4em;
     width:990px;
     height: 490px;
     background: rgba(188, 125, 230, 0.288);
     background-size: cover;
     z-index: 1;
+}
+.wrapper{
+    margin: auto;
+    display: inline;
+    align-items: center;
+    position: relative;
+}
+#big-one{
+    display: block;
+}
+
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    height: 64px;
+    width: 64px;
+    z-index: 2;
+
+}
+.prev{
+    left: 25px;
+    bottom: 5px;
+}
+.next{
+    right: 25px;
+    bottom: 5px;
+}
+.carousel-control-prev-icon{
+    background-image: url(../resources/hand.png);
+    background-size: cover;
+}
+.carousel-control-next-icon{
+    background-image: url(../resources/hand-flipped.png);
+}
+.prev:hover,.next:hover{
+    transform: scale(1.06);
+}
+
+.sr-only{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;    
+    border: 0;
+    z-index: 2
 }
