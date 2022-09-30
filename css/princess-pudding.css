@@ -49,7 +49,7 @@
     overflow:auto ;
     top: 12%; left: 4.5rem;
     width: 980px;
-    height: 450px;
+    height: 430px;
     
     overflow: hidden;
     z-index: 1;
@@ -63,10 +63,13 @@
     overflow: auto;
     padding-right: 15px;
 }
-
+.instructions2 h3{
+    text-align: center;
+}
 .description{
     position: absolute;
     text-align: center;
+    font-size: 35px;
     overflow:hidden ;
     top: 690px; left: 4.5rem;
     width: 980px;

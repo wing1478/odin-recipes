@@ -13,7 +13,7 @@
     position: absolute;
     font-family: jupiter;
     font-weight: 100;
-    top: 10%; right: 0px;
+    top: 6%; right: 0px;
     font-size: 4rem;
     background-image: url(../resources/41.png);
     background-size: cover;
@@ -96,13 +96,11 @@
 
 .specialthanks{
     position: absolute;
-    font-family: eorzea;
-    top: 80%; left: 3em;
-    width: 1000px;
-    height: 64px;
-    font-size: 2rem;
-    padding: 20px;
-    margin: 15px;
+    font-size: 35px;
+    top: 690px; left: 4.5rem;
+    width: 980px;
+    height: 200px;
+    border: 1px solid blue;
     z-index: 1;
 }
 

@@ -64,10 +64,15 @@
     padding-right: 15px;
 }
 
+.instructions2 h3{
+    text-align: center;
+}
+
 .description{
     position: absolute;
     text-align: center;
     overflow:hidden ;
+    font-size: 35px;
     top: 690px; left: 4.5rem;
     width: 980px;
     height: 200px;
