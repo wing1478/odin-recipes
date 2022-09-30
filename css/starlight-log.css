@@ -20,7 +20,7 @@
 
 #reference{
     position: relative;
-    top: 55px; left: 65%;
+    top: 55px; left: 72%;
     z-index: 1;
 }
 .boarder{
@@ -49,7 +49,7 @@
     overflow:auto ;
     top: 12%; left: 4.5rem;
     width: 980px;
-    height: 450px;
+    height: 430px;
     
     overflow: hidden;
     z-index: 1;
@@ -78,6 +78,7 @@
     height: 200px;
     border: 1px solid blue;
 }
+
 
 .prev,.next{
     cursor: pointer;
