@@ -9,6 +9,11 @@
     font-family: jupiter;
     font-weight: 100;
     text-align: right;
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
     top: 7%; right: 0px;
     font-size: 4rem;
     background-image: url(../resources/41.png);
@@ -66,15 +71,21 @@
 .instructions2 h3{
     text-align: center;
 }
+
 .description{
     position: absolute;
     text-align: center;
     font-size: 35px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
     overflow:hidden ;
     top: 690px; left: 4.5rem;
     width: 980px;
     height: 200px;
-    border: 1px solid blue;
+    
 }
 
 .prev,.next{
@@ -83,6 +94,16 @@
     bottom: 0;
     height: 64px;
     width: 64px;
+    z-index: 2;
+
+
+}
+.home{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    height: 45px;
+    width: 45px;
     z-index: 2;
 
 }
@@ -95,6 +116,11 @@
     right: 25px;
     bottom: 5px;
 }
+.home{
+
+    left: 30em;
+    bottom: 10px;
+}
 .carousel-control-prev-icon{
     background-image: url(../resources/hand.png);
     background-size: cover;
@@ -102,7 +128,11 @@
 .carousel-control-next-icon{
     background-image: url(../resources/hand-flipped.png);
 }
-.prev:hover,.next:hover{
+.carousel-control-home-icon{
+    background-image: url(../resources/housing.png);
+    background-size: cover;
+}
+.prev:hover,.next:hover,.home:hover{
     transform: scale(1.06);
 }
 
