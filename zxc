@@ -1,0 +1,71 @@
+[33mcommit c5a5c956b7056f872fd8a3cc795126311a2f2103[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Sun Oct 2 13:30:55 2022 -0400
+
+    finshed 3 pages
+
+[33mcommit 77d16868ba661e9684600698d8ca95d3505096fc[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Thu Sep 29 21:54:25 2022 -0400
+
+    finshed 3rd recipe
+
+[33mcommit 753c93348b99d4925b93979854aff55a41ae26af[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Thu Sep 29 21:08:39 2022 -0400
+
+    finished the inputing the info 2 recipe pages
+
+[33mcommit 0b368b98f24db01421371ef31e71a4b62da0ae80[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Thu Sep 29 16:39:12 2022 -0400
+
+    finished temeplate for the website
+
+[33mcommit f3b87e6b5e51a562dbf8b6123deaea127b43a3e9[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Thu Sep 29 14:58:29 2022 -0400
+
+    add the main textbox and a hidden scroll bar on recipes page
+
+[33mcommit 2bb3d5e509bac7c576e2df3455a475a995d9ce51[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Thu Sep 29 13:39:50 2022 -0400
+
+    button images now display and grow when hovered
+
+[33mcommit f27d15259b15f898429f8caf619d808229c0750e[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Thu Sep 29 12:56:03 2022 -0400
+
+    reworked recipe pages and began adding next and prev buttons
+
+[33mcommit 6a593ede21ab45a5232c6ebfde64f058494eee02[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Mon Sep 26 11:09:36 2022 -0400
+
+    add new pages
+
+[33mcommit 97ce7e605bc6e0c37a860b39dcedfdfdfa010d5a[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Fri Sep 16 19:51:37 2022 -0400
+
+    added pic and hover
+
+[33mcommit caddf981917fc1fb22143ba85e8b7d97210d8692[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Fri Sep 16 18:36:22 2022 -0400
+
+    I decide to give the project more flare
+
+[33mcommit c282240fb6ab7f32a0ef1989713190c2fd3d6544[m
+Author: Jason Saint Paul <Jstpaul17@gmail.com>
+Date:   Mon Sep 12 15:16:33 2022 -0400
+
+    Added index and lasgana
+
+[33mcommit daeda23365c2bc9ed92b1690ef5f058cbc13316f[m
+Author: wing1478 <93250274+wing1478@users.noreply.github.com>
+Date:   Mon Sep 12 13:48:41 2022 -0400
+
+    Initial commit
